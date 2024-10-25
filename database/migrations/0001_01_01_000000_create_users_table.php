@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->text('avatar')->default('https://robohash.org/new_user');
+            $table->enum('role', ['freelancer', 'client'])->default('freelancer');
             $table->rememberToken();
             $table->timestamps();
         });
