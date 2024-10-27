@@ -33,5 +33,6 @@
     <link rel="stylesheet" href="{{ asset('assets/css/lib/audioplayer.css') }}">
     <!-- main css -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/app-BeVt7ukq.css') }}">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
