@@ -27,5 +27,8 @@
 
     <!-- main js -->
     <script src="{{ asset('assets/js/app.js') }}"></script>
+    <script src="{{ asset('assets/js/lineChartPageChart.js') }}"></script>
+    <script> let table = new DataTable("#dataTable"); </script>
+
     <?php echo (isset($script) ? $script   : '')?>
 

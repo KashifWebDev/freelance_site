@@ -11,17 +11,17 @@
             <ul class="nav border-gradient-tab nav-pills mb-0 border-top-0" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">
-                        Rising Talents
+                        Discover Talents
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-ui-design-tab" data-bs-toggle="pill" data-bs-target="#pills-ui-design" type="button" role="tab" aria-controls="pills-ui-design" aria-selected="false" tabindex="-1">
-                        Top Rated
+                        My Saved
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-web-design-tab" data-bs-toggle="pill" data-bs-target="#pills-web-design" type="button" role="tab" aria-controls="pills-web-design" aria-selected="false" tabindex="-1">
-                        Top Rated Plus
+                        Hired
                     </button>
                 </li>
             </ul>
@@ -36,12 +36,33 @@
                                     <div class="max-h-266-px overflow-hidden bg-body-secondary">
                                         <img src="{{ $user->avatar }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                     </div>
-                                    <div class="py-16 px-24">
-                                        <h6 class="mb-4">{{ $user->name }}</h6>
-                                        <p class="mb-0 text-sm text-secondary-light">{{ $user->email }}</p>
-                                        <div class="d-flex align-items-center justify-content-between mt-2">
-                                            <button type="button" class="btn rounded-pill btn-primary-100 text-primary-600 radius-8 px-20 py-11">Hire Now</button>
-                                            <button type="button" class="btn rounded-pill btn-success-600 radius-8 px-20 py-11">Message</button>
+                                    <div class="py-16 px-24 d-flex justify-content-between">
+                                        <div>
+                                            <a href="{{ route( 'client.show-freelancer') }}"><h6 class="mb-4">{{ $user->name }}</h6></a>
+                                            <span class="">Total Earnings <b>$100</b></span>
+                                            <ul class="d-flex flex-wrap align-items-center">
+                                                <li class="text-warning-600 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-warning-600 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-neutral-400 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-neutral-400 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-neutral-400 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex align-items-center flex-column gap-3">
+                                                <a  href="{{ route('client.show-freelancer') }}" class="rounded-pill bg-red-600 text-white radius- px-10 py-1">Hire Now</a>
+                                                <a href="{{ route('client.chat') }}" class="btn rounded-pill btn-outline-danger-600 radius-8 px-10 py-1">Message</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -57,12 +78,33 @@
                                     <div class="max-h-266-px overflow-hidden bg-body-secondary">
                                         <img src="{{ $user->avatar }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                     </div>
-                                    <div class="py-16 px-24">
-                                        <h6 class="mb-4">{{ $user->name }}</h6>
-                                        <p class="mb-0 text-sm text-secondary-light">{{ $user->email }}</p>
-                                        <div class="d-flex align-items-center justify-content-between mt-2">
-                                            <button type="button" class="btn rounded-pill btn-primary-100 text-primary-600 radius-8 px-20 py-11">Hire Now</button>
-                                            <button type="button" class="btn rounded-pill btn-success-600 radius-8 px-20 py-11">Message</button>
+                                    <div class="py-16 px-24 d-flex justify-content-between">
+                                        <div>
+                                            <a href="{{ route( 'client.show-freelancer', ['id' => $user->id] ) }}"><h6 class="mb-4">{{ $user->name }}</h6></a>
+                                            <span class="">Total Earnings <b>$100</b></span>
+                                            <ul class="d-flex flex-wrap align-items-center">
+                                                <li class="text-warning-600 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-warning-600 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-neutral-400 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-neutral-400 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-neutral-400 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex align-items-center flex-column gap-3">
+                                                <button type="button" class="rounded-pill bg-red-600 text-white radius- px-10 py-1">Hire Now</button>
+                                                <a href="{{ route('freelancer.chat') }}" class="btn rounded-pill btn-outline-danger-600 radius-8 px-10 py-1">Message</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -78,12 +120,33 @@
                                     <div class="max-h-266-px overflow-hidden bg-body-secondary">
                                         <img src="{{ $user->avatar }}" alt="" class="hover-scale-img__img w-100 h-100 object-fit-cover">
                                     </div>
-                                    <div class="py-16 px-24">
-                                        <h6 class="mb-4">{{ $user->name }}</h6>
-                                        <p class="mb-0 text-sm text-secondary-light">{{ $user->email }}</p>
-                                        <div class="d-flex align-items-center justify-content-between mt-2">
-                                            <button type="button" class="btn rounded-pill btn-primary-100 text-primary-600 radius-8 px-20 py-11">Hire Now</button>
-                                            <button type="button" class="btn rounded-pill btn-success-600 radius-8 px-20 py-11">Message</button>
+                                    <div class="py-16 px-24 d-flex justify-content-between">
+                                        <div>
+                                            <a href="{{ route( 'client.show-freelancer', ['id' => $user->id] ) }}"><h6 class="mb-4">{{ $user->name }}</h6></a>
+                                            <span class="">Total Earnings <b>$100</b></span>
+                                            <ul class="d-flex flex-wrap align-items-center">
+                                                <li class="text-warning-600 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-warning-600 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-neutral-400 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-neutral-400 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                                <li class="text-neutral-400 text-xl line-height-1">
+                                                    <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex align-items-center flex-column gap-3">
+                                                <button type="button" class="rounded-pill bg-red-600 text-white radius- px-10 py-1">Hire Now</button>
+                                                <a href="{{ route('freelancer.chat') }}" class="btn rounded-pill btn-outline-danger-600 radius-8 px-10 py-1">Message</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

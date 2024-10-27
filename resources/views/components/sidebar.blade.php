@@ -4,9 +4,9 @@
     </button>
     <div>
         <a href="{{ route('index') }}" class="sidebar-logo">
-            <img src="{{ asset('assets/images/logo.png') }}" alt="site logo" class="light-logo">
-            <img src="{{ asset('assets/images/logo-light.png') }}" alt="site logo" class="dark-logo">
-            <img src="{{ asset('assets/images/logo-icon.png') }}" alt="site logo" class="logo-icon">
+            <img src="https://www.edigitalagency.com.au/wp-content/uploads/ESPN-logo-png.png" alt="site logo" class="light-logo">
+            <img src="https://www.edigitalagency.com.au/wp-content/uploads/ESPN-logo-png.png" alt="site logo" class="dark-logo">
+            <img src="https://www.edigitalagency.com.au/wp-content/uploads/ESPN-logo-png.png" alt="site logo" class="logo-icon">
         </a>
     </div>
     <div class="sidebar-menu-area">
@@ -21,6 +21,12 @@
                 <a href="{{ route('freelancer.chat') }}">
                     <iconify-icon icon="basil:chat-solid" class="menu-icon"></iconify-icon>
                     <span>Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('freelancer.my-contracts') }}">
+                    <iconify-icon icon="clarity:contract-line" class="menu-icon"></iconify-icon>
+                    <span>Contracts</span>
                 </a>
             </li>
             <li class="dropdown">
