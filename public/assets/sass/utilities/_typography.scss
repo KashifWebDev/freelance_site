@@ -1,5 +1,5 @@
 h1,h2,h3,h4,h5,h6 {
-  color: var(--text-primary-light);
+  color: #000000;
   font-weight: 600;
 }
 
@@ -32,7 +32,7 @@ h6, .h6 {
   .text-#{$property} {
     font-size: var(--font-#{$property}) !important;
   }
-}  
+}
 
 
 .line-height-1 {

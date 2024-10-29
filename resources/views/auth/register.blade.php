@@ -53,7 +53,7 @@
     <div class="auth-right py-32 px-24 d-flex flex-column justify-content-center">
         <div class="max-w-464-px mx-auto w-100">
             <div>
-                <a href="{{ route('index') }}" class="mb-40 max-w-290-px">
+                <a href="#" class="mb-40 max-w-290-px">
                     <img src="{{ asset('assets/images/logo.png') }}" alt="">
                 </a>
                 <h4 class="mb-12">Sign Up to your Account</h4>
@@ -104,14 +104,14 @@
                     <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
                 </div>
                 <div class="col-12 mb-16">
-                    <label class="form-label">Select Role</label>
+                    <label class="form-label text-white">Select Role</label>
                     <div class="d-flex">
                         <div class="form-check checked-primary d-flex align-items-center gap-2">
-                            <input class="form-check-input" type="radio" name="role" id="freelancer" value="freelancer">
+                            <input class="form-check-input text-white" type="radio" name="role" id="freelancer" value="freelancer">
                             <label class="form-check-label line-height-1 fw-medium text-secondary-light" for="freelancer"> Freelancer </label>
                         </div>
                         <div class="form-check checked-secondary d-flex align-items-center gap-2 ms-3">
-                            <input class="form-check-input" type="radio" name="role" id="client" value="client">
+                            <input class="form-check-input text-white" type="radio" name="role" id="client" value="client">
                             <label class="form-check-label line-height-1 fw-medium text-secondary-light" for="client"> Client </label>
                         </div>
                     </div>
@@ -124,8 +124,8 @@
                             <input class="form-check-input border border-neutral-300 mt-4" type="checkbox" value="" id="condition">
                             <label class="form-check-label text-sm" for="condition">
                                 By creating an account means you agree to the
-                                <a href="javascript:void(0)" class="text-primary-600 fw-semibold">Terms & Conditions</a> and our
-                                <a href="javascript:void(0)" class="text-primary-600 fw-semibold">Privacy Policy</a>
+                                <a href="javascript:void(0)" class="text-white fw-semibold">Terms & Conditions</a> and our
+                                <a href="javascript:void(0)" class="text-white fw-semibold">Privacy Policy</a>
                             </label>
                         </div>
 
@@ -138,11 +138,11 @@
                     <span class="bg-base z-1 px-4">Or sign up with</span>
                 </div>
                 <div class="mt-32 d-flex align-items-center gap-3">
-                    <button type="button" class="fw-semibold text-primary-light py-16 px-24 w-50 border radius-12 text-md d-flex align-items-center justify-content-center gap-12 line-height-1 bg-hover-primary-50">
+                    <button type="button" class="fw-semibold text-light py-16 px-24 w-50 border radius-12 text-md d-flex align-items-center justify-content-center gap-12 line-height-1 bg-hover-primary-50">
                         <iconify-icon icon="ic:baseline-facebook" class="text-primary-600 text-xl line-height-1"></iconify-icon>
                         Google
                     </button>
-                    <button type="button" class="fw-semibold text-primary-light py-16 px-24 w-50 border radius-12 text-md d-flex align-items-center justify-content-center gap-12 line-height-1 bg-hover-primary-50">
+                    <button type="button" class="fw-semibold text-light py-16 px-24 w-50 border radius-12 text-md d-flex align-items-center justify-content-center gap-12 line-height-1 bg-hover-primary-50">
                         <iconify-icon icon="logos:google-icon" class="text-primary-600 text-xl line-height-1"></iconify-icon>
                         Google
                     </button>

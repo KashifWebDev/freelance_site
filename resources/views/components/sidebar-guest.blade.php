@@ -9,23 +9,23 @@
     <div class="">
         <ul class="d-flex top_nav">
             <li>
-                <a href="{{ route('freelancer.all-clients') }}">
-                    <span>All Clients</span>
+                <a href="{{ route('guests.clients') }}">
+                    <span>Search Clients</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('freelancer.chat') }}">
-                    <span>Messages</span>
+                <a href="{{ route('guests.freelancers') }}">
+                    <span>Search Freelancers</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('freelancer.my-contracts') }}">
-                    <span>Contracts</span>
+                <a href="{{ route('login') }}">
+                    <span>Login</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('freelancer.invoice') }}">
-                    <span>Invoices</span>
+                <a href="{{ route('register') }}">
+                    <span>Register</span>
                 </a>
             </li>
         </ul>

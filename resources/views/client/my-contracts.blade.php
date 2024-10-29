@@ -74,7 +74,7 @@
                     <td><a href="{{ route('client.invoice-show') }}" class="text-primary-600">#696589</a></td>
                     <td>
                         <div class="d-flex align-items-center">
-                            <img src="https://robohash.org/478251user-list2.png') }}" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
+                            <img src="https://i.pravatar.cc/800?img=<?=rand(1, 69)?>" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
                             <h6 class="text-md mb-0 fw-medium flex-grow-1">Annette Black</h6>
                         </div>
                     </td>
@@ -105,7 +105,7 @@
                     <td><a href="{{ route('client.invoice-show') }}" class="text-primary-600">#256584</a></td>
                     <td>
                         <div class="d-flex align-items-center">
-                            <img src="https://robohash.org/478251user-list3.png') }}" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
+                            <img src="https://i.pravatar.cc/800?img=<?=rand(1, 69)?>" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
                             <h6 class="text-md mb-0 fw-medium flex-grow-1">Ronald Richards</h6>
                         </div>
                     </td>
@@ -136,7 +136,7 @@
                     <td><a href="{{ route('client.invoice-show') }}" class="text-primary-600">#526587</a></td>
                     <td>
                         <div class="d-flex align-items-center">
-                            <img src="https://robohash.org/478251user-list4.png') }}" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
+                            <img src="https://i.pravatar.cc/800?img=<?=rand(1, 69)?>" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
                             <h6 class="text-md mb-0 fw-medium flex-grow-1">Eleanor Pena</h6>
                         </div>
                     </td>
@@ -322,7 +322,7 @@
                     <td><a href="{{ route('client.invoice-show') }}" class="text-primary-600">#526525</a></td>
                     <td>
                         <div class="d-flex align-items-center">
-                            <img src="https://robohash.org/478251user-list10.png') }}" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
+                            <img src="https://i.pravatar.cc/800?img=<?=rand(1, 69)?>" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
                             <h6 class="text-md mb-0 fw-medium flex-grow-1">Cameron Williamson</h6>
                         </div>
                     </td>
@@ -384,7 +384,7 @@
                     <td><a href="{{ route('client.invoice-show') }}" class="text-primary-600">#696589</a></td>
                     <td>
                         <div class="d-flex align-items-center">
-                            <img src="https://robohash.org/478251user-list2.png') }}" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
+                            <img src="https://i.pravatar.cc/800?img=<?=rand(1, 69)?>" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
                             <h6 class="text-md mb-0 fw-medium flex-grow-1">Annette Black</h6>
                         </div>
                     </td>
@@ -415,7 +415,7 @@
                     <td><a href="{{ route('client.invoice-show') }}" class="text-primary-600">#256584</a></td>
                     <td>
                         <div class="d-flex align-items-center">
-                            <img src="https://robohash.org/478251user-list3.png') }}" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
+                            <img src="https://i.pravatar.cc/800?img=<?=rand(1, 69)?>" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
                             <h6 class="text-md mb-0 fw-medium flex-grow-1">Ronald Richards</h6>
                         </div>
                     </td>
@@ -446,7 +446,7 @@
                     <td><a href="{{ route('client.invoice-show') }}" class="text-primary-600">#526587</a></td>
                     <td>
                         <div class="d-flex align-items-center">
-                            <img src="https://robohash.org/478251user-list4.png') }}" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
+                            <img src="https://i.pravatar.cc/800?img=<?=rand(1, 69)?>" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
                             <h6 class="text-md mb-0 fw-medium flex-grow-1">Eleanor Pena</h6>
                         </div>
                     </td>
@@ -632,7 +632,7 @@
                     <td><a href="{{ route('client.invoice-show') }}" class="text-primary-600">#526525</a></td>
                     <td>
                         <div class="d-flex align-items-center">
-                            <img src="https://robohash.org/478251user-list10.png') }}" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
+                            <img src="https://i.pravatar.cc/800?img=<?=rand(1, 69)?>" alt="" class="flex-shrink-0 me-12 radius-8" style="height: 25px">
                             <h6 class="text-md mb-0 fw-medium flex-grow-1">Cameron Williamson</h6>
                         </div>
                     </td>

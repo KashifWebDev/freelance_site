@@ -6,6 +6,30 @@ use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+    return view('welcome', [
+        'users' => User::skip(0)->take(15)->get(),
+        'users1' => User::skip(15)->take(15)->get(),
+        'users2' => User::skip(30)->take(15)->get(),
+    ]);
+})->name('index');
+
+Route::get('/freelancers', function () {
+    return view('guests.freelancer', [
+        'users' => User::skip(0)->take(15)->get(),
+        'users1' => User::skip(15)->take(15)->get(),
+        'users2' => User::skip(30)->take(15)->get(),
+    ]);
+})->name('guests.freelancers');
+
+Route::get('/clients', function () {
+    return view('guests.client', [
+        'users' => User::skip(0)->take(15)->get(),
+        'users1' => User::skip(15)->take(15)->get(),
+        'users2' => User::skip(30)->take(15)->get(),
+    ]);
+})->name('guests.clients');
+
+Route::get('/login', function () {
     return redirect()->route('login');
 })->name('index');
 

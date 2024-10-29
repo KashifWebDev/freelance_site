@@ -1,8 +1,8 @@
 /** ================================= Table Of Contents =================================== /
-1. Abstract Css 
-    1.1 Function Css 
-    1.2 Variables Css 
-    1.3 Mixins Css 
+1. Abstract Css
+    1.1 Function Css
+    1.2 Variables Css
+    1.3 Mixins Css
 
 
 2. Component Css
@@ -170,9 +170,9 @@
   --neutral-400: #9CA3AF;
   --neutral-500: #6B7280;
   --neutral-600: #4B5563;
-  --neutral-700: #374151;
-  --neutral-800: #1F2937;
-  --neutral-900: #111827;
+  --neutral-700: #000000;
+  --neutral-800: #000000;
+  --neutral-900: #000000;
   --danger-50: #FEF2F2;
   --danger-100: #FEE2E2;
   --danger-200: #FECACA;
@@ -213,9 +213,9 @@
   --info-700: #1D4ED8;
   --info-800: #1E40AF;
   --info-900: #1E3A8A;
-  --dark-1: #1B2431;
-  --dark-2: #273142;
-  --dark-3: #323D4E;
+  --dark-1: #000000;
+  --dark-2: #000000;
+  --dark-3: #000000;
   --lilac-50: #f0e1ff;
   --lilac-100: #EBD7FF;
   --lilac-600: #8252E9;
@@ -225,7 +225,7 @@
   --light-100: #F3F4F6;
   --light-600: #E4F1FF;
   --light-700: #374151;
-  --light-800: #1F2937;
+  --light-800: #000000;
   --success-main: #45B369;
   --success-surface: #DAF0E1;
   --success-border: #B5E1C3;

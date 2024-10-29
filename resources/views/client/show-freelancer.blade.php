@@ -13,7 +13,7 @@
                 <img src="https://fastly.picsum.photos/id/1075/360/120.jpg?hmac=JBnD1me7CFPblwN7mbAQajvJC8_IrvVPmIMw1zBfWyM" alt="" class="w-100 object-fit-cover">
                 <div class="pb-24 ms-16 mb-24 me-16  mt--100">
                     <div class="text-center border border-top-0 border-start-0 border-end-0">
-                        <img src="https://robohash.org/1234" alt="" class="border br-white border-width-2-px w-200-px h-200-px rounded-circle object-fit-cover">
+                        <img src="https://i.pravatar.cc/800?img=36" alt="" class="border br-white border-width-2-px w-200-px h-200-px rounded-circle object-fit-cover">
                         <div class="d-flex w-100 justify-between align-items-center">
                             <div>
                                 <h6 class="mb-0 mt-16">Jacob Jones</h6>
@@ -48,19 +48,19 @@
                         <h6 class="text-xl mb-16">Personal Info</h6>
                         <ul>
                             <li class="d-flex align-items-center gap-1 mb-12">
-                                <span class="w-30 text-md fw-semibold text-primary-light">Full Name</span>
+                                <span class="w-30 text-md fw-semibold text-white">Full Name</span>
                                 <span class="w-70 text-secondary-light fw-medium"> Will Jonto</span>
                             </li>
                             <li class="d-flex align-items-center gap-1 mb-12">
-                                <span class="w-30 text-md fw-semibold text-primary-light"> Joined</span>
+                                <span class="w-30 text-md fw-semibold text-white"> Joined</span>
                                 <span class="w-70 text-secondary-light fw-medium"> 11 Sep, 2023</span>
                             </li>
                             <li class="d-flex align-items-center gap-1 mb-12">
-                                <span class="w-30 text-md fw-semibold text-primary-light"> Languages</span>
+                                <span class="w-30 text-md fw-semibold text-white"> Languages</span>
                                 <span class="w-70 text-secondary-light fw-medium"> English, Urdu</span>
                             </li>
                             <li class="d-flex align-items-center gap-1">
-                                <span class="w-30 text-md fw-semibold text-primary-light"> Bio</span>
+                                <span class="w-30 text-md fw-semibold text-white"> Bio</span>
                                 <span class="w-70 text-secondary-light fw-medium"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
                             </li>
                         </ul>
@@ -106,12 +106,12 @@
 
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-edit-profile" role="tabpanel" aria-labelledby="pills-edit-profile-tab" tabindex="0">
-                            <h6 class="text-primary-light mb-16">Profile Description</h6>
+                            <h6 class="mb-16">Profile Description</h6>
                             <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             <br><p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             <br><p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             <hr class="my-20">
-                            <h6 class="text-primary-light mb-16" style="font-weight: bolder">Work History</h6>
+                            <h6 class="mb-16" style="font-weight: bolder">Work History</h6>
 
                             @foreach(range(1, 7) as $loop)
                                 <div style="margin-bottom: 15px;">

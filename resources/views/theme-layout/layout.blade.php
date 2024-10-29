@@ -6,18 +6,15 @@
 
 <body>
 
-<!-- ..::  header area start ::.. -->
-@if(auth()->user()->role == 'client')
-    <x-sidebar-client />
-@else
-    <x-sidebar />
-@endif
-<!-- ..::  header area end ::.. -->
 
-<main class="dashboard-main">
+<main class="dashboard-main1">
 
     <!-- ..::  navbar start ::.. -->
-    <x-navbar />
+    @if(auth()->guest())
+        <x-navbar-guest />
+    @else
+        <x-navbar />
+    @endif
     <!-- ..::  navbar end ::.. -->
     <div class="dashboard-main-body">
 

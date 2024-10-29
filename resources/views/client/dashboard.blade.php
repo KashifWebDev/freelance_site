@@ -3,11 +3,6 @@
 @php
     $title = 'Dashboard';
     $subTitle = 'Dashboard';
-    $script = '<script>
-    $(".remove-item-btn").on("click", function() {
-        $(this).closest("tr").addClass("d-none")
-    });
-    </script>';
 @endphp
 
 @section('content')

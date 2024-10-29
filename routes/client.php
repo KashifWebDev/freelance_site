@@ -29,7 +29,7 @@ Route::get('/invoice-show', function () {
 
 Route::get('/show-freelancer', function () {
     return view('client.show-freelancer');
-})->name('show-freelancer');
+})->name('show-freelancer')->withoutMiddleware('auth');
 
 
 Route::get('/my-contracts', function () {

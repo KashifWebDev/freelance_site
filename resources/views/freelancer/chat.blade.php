@@ -11,7 +11,7 @@
         <div class="chat-sidebar card">
             <div class="chat-sidebar-single active top-profile">
                 <div class="img">
-                    <img src="https://robohash.org/1.png" alt="image">
+                    <img src="https://i.pravatar.cc/800?img=36" alt="image">
                 </div>
                 <div class="info">
                     <h6 class="text-md mb-0">Kathryn Murphy</h6>
@@ -165,7 +165,7 @@
                 </div><!-- chat-sidebar-single end -->
                 <div class="chat-sidebar-single active">
                     <div class="img">
-                        <img src="https://robohash.org/2.png" alt="image">
+                        <img src="https://i.pravatar.cc/800?img=36" alt="image">
                     </div>
                     <div class="info">
                         <h6 class="text-sm mb-1">Kathryn Murphy</h6>
@@ -285,7 +285,7 @@
         <div class="chat-main card">
             <div class="chat-sidebar-single active">
                 <div class="img">
-                    <img src="https://robohash.org/11.png" alt="image">
+                    <img src="https://i.pravatar.cc/800?img=36" alt="image">
                 </div>
                 <div class="info">
                     <h6 class="text-md mb-0">Kathryn Murphy</h6>

@@ -1,8 +1,8 @@
 /** ================================= Table Of Contents =================================== /
-1. Abstract Css 
-    1.1 Function Css 
-    1.2 Variables Css 
-    1.3 Mixins Css 
+1. Abstract Css
+    1.1 Function Css
+    1.2 Variables Css
+    1.3 Mixins Css
 
 
 2. Component Css
@@ -2748,7 +2748,7 @@ th {
 }
 
 .bg-base {
-  background-color: var(--white) !important;
+  background-color: black;
 }
 
 .bg-base-50 {
@@ -12890,3 +12890,23 @@ td.fc-header-center {
 /* === footer css end === */
 
 /*# sourceMappingURL=style.css.map */
+html, body, div.card, div.navbar-header, div.card-header, footer, .dropdown-menu{
+    background-color: black !important;
+    color: white !important;
+}
+p, span, h1, h2, h3, h4, h5, h6, #pills-all-tab, #pills-web-design-tab, #pills-ui-design-tab, #pills-tab li button{
+    color: white !important;
+}
+.top_nav li {
+    margin-right: 20px;
+}
+.chat-message-content{
+    background-color: #7777773b !important;
+}
+.bordered-table tbody tr td, .bordered-table thead tr th {
+    color: white !important;
+    padding: 16px !important;
+    border-bottom: 1px solid var(--neutral-200);
+    background-color: black !important;
+    vertical-align: middle;
+}

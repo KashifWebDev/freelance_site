@@ -27,7 +27,7 @@ class UserFactory extends Factory
             'name' => fake()->name(),
             'email' => fake()->unique()->safeEmail(),
             'role' => fake()->randomElement(['freelancer', 'client']),
-            'avatar' => 'https://robohash.org/'.fake()->randomNumber(),
+            'avatar' => 'https://i.pravatar.cc/800?img='.fake()->numberBetween(1, 70),
             'email_verified_at' => now(),
             'password' => static::$password ??= Hash::make('password'),
             'remember_token' => Str::random(10)
