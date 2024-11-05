@@ -6,7 +6,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome', [
+    return view('landing.index', [
         'users' => User::skip(0)->take(15)->get(),
         'users1' => User::skip(15)->take(15)->get(),
         'users2' => User::skip(30)->take(15)->get(),
@@ -14,7 +14,7 @@ Route::get('/', function () {
 })->name('index');
 
 Route::get('/freelancers', function () {
-    return view('guests.freelancer', [
+    return view('landing.freelancer', [
         'users' => User::skip(0)->take(15)->get(),
         'users1' => User::skip(15)->take(15)->get(),
         'users2' => User::skip(30)->take(15)->get(),
@@ -22,12 +22,16 @@ Route::get('/freelancers', function () {
 })->name('guests.freelancers');
 
 Route::get('/clients', function () {
-    return view('guests.client', [
+    return view('landing.client', [
         'users' => User::skip(0)->take(15)->get(),
         'users1' => User::skip(15)->take(15)->get(),
         'users2' => User::skip(30)->take(15)->get(),
     ]);
 })->name('guests.clients');
+
+Route::get('/gig', function () {
+    return view('landing.gig');
+})->name('gig');
 
 Route::get('/login', function () {
     return redirect()->route('login');
@@ -35,7 +39,6 @@ Route::get('/login', function () {
 
 Route::get('/dashboard', function () {
 })->name('dashboard')->middleware(RedirectBasedOnRole::class);
-
 
 Route::prefix('freelancer')->middleware(['auth'])->name('freelancer.')->group(function (){
     require 'freelancer.php';
