@@ -46,7 +46,7 @@ Route::get('/chat', function () {
 })->name('chat');
 
 Route::get('/my-profile', function () {
-    return 'my profile';
+    return view('landing.profile');
 })->name('my-profile');
 
 Route::get('/dashboard', function () {
