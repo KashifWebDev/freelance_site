@@ -29,13 +29,25 @@ Route::get('/clients', function () {
     ]);
 })->name('guests.clients');
 
-Route::get('/gig', function () {
+Route::get('/gigs', function () {
     return view('landing.gig');
-})->name('gig');
+})->name('gigs');
+
+Route::get('/show-gig', function () {
+    return view('landing.show-gig');
+})->name('show-gig');
 
 Route::get('/login', function () {
     return redirect()->route('login');
 })->name('index');
+
+Route::get('/chat', function () {
+    return view('client.chat', []);
+})->name('chat');
+
+Route::get('/my-profile', function () {
+    return 'my profile';
+})->name('my-profile');
 
 Route::get('/dashboard', function () {
 })->name('dashboard')->middleware(RedirectBasedOnRole::class);

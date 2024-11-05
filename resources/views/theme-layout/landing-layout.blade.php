@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design Lab</title>
-    <link rel="stylesheet" href="landing/css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="landing/css/fancybox.css" />
-    <link rel="stylesheet" href="landing/css/style.min.css">
+    <title>Freelance Site</title>
+    <link rel="stylesheet" href="{{ route('index') }}/landing/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="{{ route('index') }}/landing/css/fancybox.css" />
+    <link rel="stylesheet" href="{{ route('index') }}/landing/css/style.min.css">
 </head>
 
 <body >
@@ -25,12 +25,11 @@
 
 @yield('content')
 
-
-<script src="landing/js/jquery.min.js"></script>
-<script src="landing/js//swiper-bundle.min.js"></script>
-<script src="landing/js//fancybox.umd.js"></script>
-<script src="landing/js//TweenMax.min.js"></script>
-<script src="landing/js/main.min.js"></script>
+<script src="{{ route('index') }}/landing/js/jquery.min.js"></script>
+<script src="{{ route('index') }}/landing/js//swiper-bundle.min.js"></script>
+<script src="{{ route('index') }}/landing/js//fancybox.umd.js"></script>
+<script src="{{ route('index') }}/landing/js//TweenMax.min.js"></script>
+<script src="{{ route('index') }}/landing/js/main.min.js"></script>
 
 
 

@@ -1,368 +1,186 @@
-@extends('theme-layout.layout')
-
-@php
-    $title = 'Chat';
-    $subTitle = 'Chat';
-@endphp
+@extends('theme-layout.landing-layout')
 
 @section('content')
 
-    <div class="chat-wrapper">
-        <div class="chat-sidebar card">
-            <div class="chat-sidebar-single active top-profile">
-                <div class="img">
-                    <img src="https://i.pravatar.cc/800?img=36" alt="image">
-                </div>
-                <div class="info">
-                    <h6 class="text-md mb-0">Kathryn Murphy</h6>
-                    <p class="mb-0">Available</p>
-                </div>
-                <div class="action">
-                    <div class="btn-group">
-                        <button type="button" class="text-secondary-light text-xl" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                            <iconify-icon icon="bi:three-dots"></iconify-icon>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-lg-end border">
-                            <li>
-                                <a href="{{ route('freelancer.chat') }}" class="dropdown-item rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900 d-flex align-items-center gap-2">
-                                    <iconify-icon icon="fluent:person-32-regular"></iconify-icon>
-                                    Profile
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{{ route('freelancer.chat') }}" class="dropdown-item rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900 d-flex align-items-center gap-2">
-                                    <iconify-icon icon="carbon:settings"></iconify-icon>
-                                    Settings
-                                </a>
-                            </li>
-                        </ul>
+    <div class="chat-ui">
+        <div class="chat-ui__sidebar">
+            <div class="chat-ui__user-list">
+                <div class="chat-ui__user-item chat-ui__user-item--active">
+                    <img src="{{ route('index') }}/landing/images/member-icon-3.png" alt="Alice Johnson" class="chat-ui__user-avatar">
+                    <div class="chat-ui__user-info">
+                        <div class="chat-ui__user-name">Alice Johnson</div>
+                        <div class="chat-ui__user-status">Online</div>
                     </div>
                 </div>
-            </div><!-- chat-sidebar-single end -->
-            <div class="chat-search">
-            <span class="icon">
-                <iconify-icon icon="iconoir:search"></iconify-icon>
-            </span>
-                <input type="text" name="#0" autocomplete="off" placeholder="Search...">
-            </div>
-            <div class="chat-all-list">
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/2.png" alt="image">
+                <div class="chat-ui__user-item">
+                    <img src="{{ route('index') }}/landing/images/member-icon-3.png" alt="Bob Smith" class="chat-ui__user-avatar">
+                    <div class="chat-ui__user-info">
+                        <div class="chat-ui__user-name">Bob Smith</div>
+                        <div class="chat-ui__user-status">Offline</div>
                     </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Kathryn Murphy</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
+                </div>
+                <div class="chat-ui__user-item">
+                    <img src="{{ route('index') }}/landing/images/member-icon-3.png" alt="Charlie Brown" class="chat-ui__user-avatar">
+                    <div class="chat-ui__user-info">
+                        <div class="chat-ui__user-name">Charlie Brown</div>
+                        <div class="chat-ui__user-status">Away</div>
                     </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
+                </div>
+                <div class="chat-ui__user-item">
+                    <img src="{{ route('index') }}/landing/images/member-icon-3.png" alt="Diana Prince" class="chat-ui__user-avatar">
+                    <div class="chat-ui__user-info">
+                        <div class="chat-ui__user-name">Diana Prince</div>
+                        <div class="chat-ui__user-status">Online</div>
                     </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/3.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">James Michael</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single">
-                    <div class="img">
-                        <img src="https://robohash.org/4.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Russell Lucas</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single">
-                    <div class="img">
-                        <img src="https://robohash.org/5.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Caleb Bradley</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/6.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Bobby Roy</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/7.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Vincent Liam</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/8.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Randy Mason</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/9.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Albert Wayne</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/10.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Elijah Willie</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/2.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Kathryn Murphy</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/3.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">James Michael</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single">
-                    <div class="img">
-                        <img src="https://robohash.org/4.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Russell Lucas</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single">
-                    <div class="img">
-                        <img src="https://robohash.org/5.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Caleb Bradley</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/6.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Bobby Roy</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/7.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Vincent Liam</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/8.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Randy Mason</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/9.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Albert Wayne</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
-                <div class="chat-sidebar-single active">
-                    <div class="img">
-                        <img src="https://robohash.org/10.png" alt="image">
-                    </div>
-                    <div class="info">
-                        <h6 class="text-sm mb-1">Elijah Willie</h6>
-                        <p class="mb-0 text-xs">hey! there i'm...</p>
-                    </div>
-                    <div class="action text-end">
-                        <p class="mb-0 text-neutral-400 text-xs lh-1">12:30 PM</p>
-                        <span class="w-16-px h-16-px text-xs rounded-circle bg-warning-main text-white d-inline-flex align-items-center justify-content-center">8</span>
-                    </div>
-                </div><!-- chat-sidebar-single end -->
+                </div>
             </div>
         </div>
-        <div class="chat-main card">
-            <div class="chat-sidebar-single active">
-                <div class="img">
-                    <img src="https://i.pravatar.cc/800?img=36" alt="image">
+        <div class="chat-ui__main">
+            <div class="chat-ui__header">
+                <img src="{{ route('index') }}/landing/images/member-icon-3.png" alt="Alice Johnson" class="chat-ui__user-avatar">
+                <div class="chat-ui__user-info">
+                    <div class="chat-ui__user-name">Alice Johnson</div>
+                    <div class="chat-ui__user-status">Online</div>
                 </div>
-                <div class="info">
-                    <h6 class="text-md mb-0">Kathryn Murphy</h6>
-                    <p class="mb-0">Available</p>
-                </div>
-                <div class="action d-inline-flex align-items-center gap-3">
-                    <button type="button" class="text-xl text-primary-light">
-                        <iconify-icon icon="mi:call"></iconify-icon>
-                    </button>
-                    <button type="button" class="text-xl text-primary-light">
-                        <iconify-icon icon="fluent:video-32-regular"></iconify-icon>
-                    </button>
-                    <div class="btn-group">
-                        <button type="button" class="text-primary-light text-xl" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                            <iconify-icon icon="tabler:dots-vertical"></iconify-icon>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-lg-end border">
-                            <li>
-                                <button class="dropdown-item rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900 d-flex align-items-center gap-2" type="button">
-                                    <iconify-icon icon="mdi:clear-circle-outline"></iconify-icon>
-                                    Clear All
-                                </button>
-                            </li>
-                            <li>
-                                <button class="dropdown-item rounded text-secondary-light bg-hover-neutral-200 text-hover-neutral-900 d-flex align-items-center gap-2" type="button">
-                                    <iconify-icon icon="ic:baseline-block"></iconify-icon>
-                                    Block
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!-- chat-sidebar-single end -->
-            <div class="chat-message-list">
-                <div class="chat-single-message left">
-                    <img src="https://robohash.org/11.png') }}" alt="image" class="avatar-lg object-fit-cover rounded-circle">
-                    <div class="chat-message-content">
-                        <p class="mb-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
-                        <p class="chat-time mb-0">
-                            <span>6.30 pm</span>
-                        </p>
-                    </div>
-                </div><!-- chat-single-message end -->
-                <div class="chat-single-message right">
-                    <div class="chat-message-content">
-                        <p class="mb-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
-                        <p class="chat-time mb-0">
-                            <span>6.30 pm</span>
-                        </p>
-                    </div>
-                </div><!-- chat-single-message end -->
-                <div class="chat-single-message left">
-                    <img src="https://robohash.org/11.png') }}" alt="image" class="avatar-lg object-fit-cover rounded-circle">
-                    <div class="chat-message-content">
-                        <p class="mb-3">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default.Contrary to popular belief, Lorem Ipsum is not simply random text is the model text for your company.</p>
-                        <p class="chat-time mb-0">
-                            <span>6.30 pm</span>
-                        </p>
-                    </div>
-                </div><!-- chat-single-message end -->
             </div>
-            <form class="chat-message-box">
-                <input type="text" name="chatMessage" placeholder="Write message">
-                <div class="chat-message-box-action">
-                    <button type="button" class="text-xl">
-                        <iconify-icon icon="ph:link"></iconify-icon>
-                    </button>
-                    <button type="button" class="text-xl">
-                        <iconify-icon icon="solar:gallery-linear"></iconify-icon>
-                    </button>
-                    <button type="submit" class="btn btn-sm btn-primary-600 radius-8 d-inline-flex align-items-center gap-1">
-                        Send
-                        <iconify-icon icon="f7:paperplane"></iconify-icon>
-                    </button>
+            <div class="chat-ui__message-list">
+                <div class="chat-ui__message chat-ui__message--received">
+                    <div class="chat-ui__message-content">Hey everyone!</div>
+                    <div class="chat-ui__message-time">10:00 AM</div>
                 </div>
-            </form>
+                <div class="chat-ui__message chat-ui__message--sent">
+                    <div class="chat-ui__message-content">Hi Alice, how are you?</div>
+                    <div class="chat-ui__message-time">10:02 AM</div>
+                </div>
+                <div class="chat-ui__message chat-ui__message--received">
+                    <div class="chat-ui__message-content">I'm doing great, thanks for asking!</div>
+                    <div class="chat-ui__message-time">10:05 AM</div>
+                </div>
+                <div class="chat-ui__message chat-ui__message--sent">
+                    <div class="chat-ui__message-content">That's wonderful to hear!</div>
+                    <div class="chat-ui__message-time">10:06 AM</div>
+                </div>
+            </div>
+            <div class="chat-ui__input-area">
+                <input type="text" class="chat-ui__input" placeholder="Type a message...">
+                <button class="chat-ui__send-button">Send</button>
+            </div>
         </div>
     </div>
+
+    <style>
+        .chat-ui {
+            display: flex;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            color: #0e1218;
+            background-color: #0e1218;
+        }
+        .chat-ui__sidebar {
+            width: 300px;
+            background-color: #0e1218;
+            border-right: 1px solid #0084ff;
+        }
+        .chat-ui__user-list {
+            overflow-y: auto;
+            height: 100%;
+        }
+        .chat-ui__user-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #686868;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .chat-ui__user-item:hover,
+        .chat-ui__user-item--active {
+            background-color: #0084ff;
+        }
+        .chat-ui__user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .chat-ui__user-info {
+            flex-grow: 1;
+        }
+        .chat-ui__user-name {
+            font-weight: bold;
+            margin-bottom: 3px;
+            color: white;
+        }
+        .chat-ui__user-status {
+            font-size: 0.8em;
+            color: white;
+        }
+        .chat-ui__main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .chat-ui__header {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background-color: #0084ff;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .chat-ui__message-list {
+            flex-grow: 1;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .chat-ui__message {
+            max-width: 70%;
+            margin-bottom: 15px;
+            padding: 10px 15px;
+            border-radius: 18px;
+            line-height: 1.4;
+        }
+        .chat-ui__message--sent {
+            align-self: flex-end;
+            background-color: #0084ff;
+            color: #fff;
+        }
+        .chat-ui__message--received {
+            align-self: flex-start;
+            background-color: #e5e5ea;
+        }
+        .chat-ui__message-time {
+            font-size: 0.75em;
+            margin-top: 5px;
+            opacity: 0.7;
+        }
+        .chat-ui__input-area {
+            display: flex;
+            padding: 15px;
+            background-color: #fff;
+            border-top: 1px solid #e0e0e0;
+        }
+        .chat-ui__input {
+            flex-grow: 1;
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .chat-ui__send-button {
+            padding: 10px 20px;
+            background-color: #0084ff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .chat-ui__send-button:hover {
+            background-color: #0073e6;
+        }
+    </style>
 
 @endsection

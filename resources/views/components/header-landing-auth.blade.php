@@ -2,8 +2,7 @@
     <div class="container">
         <div class="header__inner">
             <a class="header__logo logo" href="/">
-                <img class="logo__img logo__rotate" src="https://pro-theme.com/html/designlab/images/logo-img.svg" alt="img">
-                <img class="logo__text" src="landing/images/logo.svg" alt="img">
+                <img class="logo__text" src="https://www.edigitalagency.com.au/wp-content/uploads/ESPN-logo-png.png" alt="img">
             </a>
             <div class="header__wrapper">
 
@@ -21,6 +20,17 @@
                             <a class="menu__link" href="{{ route('guests.clients') }}">
                                 Clients
                             </a> </li>
+                        <li>
+
+                            <a class="menu__link" href="{{ route('gigs') }}">
+                                Gigs
+                            </a> </li>
+                        <li>
+
+                            <a class="menu__link" href="{{ route('my-profile') }}">
+                                My Profile
+                            </a> </li>
+                        <li>
                     </ul>
                 </div>
                 <form class="header__search search" action="#">
@@ -37,7 +47,7 @@
                     <input class="search__input" type="text" placeholder="Search...">
                 </form>
                 <div class="header__user-nav user-nav">
-                    <a class="user-nav__link" href="#">
+                    <a class="user-nav__link" href="{{ route('chat') }}">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -48,7 +58,7 @@
                                 1
                             </span>
                     </a>
-                    <a class="user-nav__link" href="#">
+                    <a class="user-nav__link" href="{{ route('chat') }}">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -59,14 +69,14 @@
                                 stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                         <span>
-                                7
+                                71
                             </span>
                     </a>
                 </div>
             </div>
             <form class="header__form header-form" action="#">
                 <div class="header-form__img">
-                    <img class="header-form__img-image" src="landing/images/member-icon-3.png" alt="img">
+                    <img class="header-form__img-image" src="{{ route('index') }}/landing/images/member-icon-3.png" alt="img">
                 </div>
                 <div class="header-form__select custom-select">
                     <select>
