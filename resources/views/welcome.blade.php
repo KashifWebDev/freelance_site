@@ -7,6 +7,6 @@
 
 @section('content')
 
-    @include('freelancer.all-clients')
+    @include('freelancer1.all-clients')
 
 @endsection

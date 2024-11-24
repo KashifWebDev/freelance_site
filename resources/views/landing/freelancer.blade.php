@@ -216,63 +216,6 @@
                     <h1 class="freelancers__title title">
                         Freelancers
                     </h1>
-                    <div class="freelancers__filters-panel filters-panel">
-                        <div class="filters-panel__tags tags">
-                            <a class="tags__tag tags__tag--active" href="#">
-                                All
-                                <span>
-                                    23
-                                </span>
-                            </a>
-                            <a class="tags__tag tags__tag" href="#">
-                                UX/UI Designers
-                                <span>
-                                    10
-                                </span>
-                            </a>
-                            <a class="tags__tag tags__tag" href="#">
-                                Illustrators
-                                <span>
-                                    5
-                                </span>
-                            </a>
-                            <a class="tags__tag tags__tag" href="#">
-                                3D Artists
-                                <span>
-                                    6
-                                </span>
-                            </a>
-                            <a class="tags__tag tags__tag" href="#">
-                                Graphic Designers
-                                <span>
-                                    2
-                                </span>
-                            </a>
-                        </div>
-                        <form class="filters-panel__form filters-panel-form" action="#">
-                            <div class="filters-panel-form__search search">
-                                <button class="search__btn" type="button">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M11 19C15.4182 19 19 15.4183 19 11C19 6.58172 15.4182 3 11 3C6.58169 3 2.99997 6.58172 2.99997 11C2.99997 15.4183 6.58169 19 11 19Z"
-                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                        <path d="M21 21L16.65 16.65" stroke="white" stroke-width="1.5"
-                                              stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </button>
-                                <input class="search__input" type="text" placeholder="Search...">
-                            </div>
-                            <div class="filters-panel-form__select custom-select">
-                                <select>
-                                    <option value="0">Newest Registered</option>
-                                    <option value="1">Newest Registered</option>
-                                    <option value="2">Newest Registered 2</option>
-                                </select>
-                            </div>
-                        </form>
-                    </div>
                     <div class="freelancers__inner">
                         <div class="freelancers__card card freelancers--card">
                             <div class="card__inner">
@@ -286,7 +229,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -306,7 +249,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -326,7 +269,7 @@
                                         Ferguson
                                     </span>
                                 </h3>
-                                <a class="card__text" href="#">
+                                <a class="card__text" href="my-profile?id=1">
                                     @valerie_ui
                                 </a>
                                 <p class="card__subtext">
@@ -374,7 +317,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="card__link" href="#">
+                                <a class="card__link" href="my-profile?id=1">
                                     Invite
                                 </a>
                             </div>
@@ -391,7 +334,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -411,7 +354,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -431,7 +374,7 @@
                                         Mooney
                                     </span>
                                 </h3>
-                                <a class="card__text" href="#">
+                                <a class="card__text" href="my-profile?id=1">
                                     @jermaine-mooney-des
                                 </a>
                                 <p class="card__subtext">
@@ -479,7 +422,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="card__link" href="#">
+                                <a class="card__link" href="my-profile?id=1">
                                     Invite
                                 </a>
                             </div>
@@ -496,7 +439,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -516,7 +459,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -536,7 +479,7 @@
                                         Hardin
                                     </span>
                                 </h3>
-                                <a class="card__text" href="#">
+                                <a class="card__text" href="my-profile?id=1">
                                     @elhardin.3dart
                                 </a>
                                 <p class="card__subtext">
@@ -584,7 +527,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="card__link" href="#">
+                                <a class="card__link" href="my-profile?id=1">
                                     Invite
                                 </a>
                             </div>
@@ -601,7 +544,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -621,7 +564,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -641,7 +584,7 @@
                                         Humphrey
                                     </span>
                                 </h3>
-                                <a class="card__text" href="#">
+                                <a class="card__text" href="my-profile?id=1">
                                     @humphrey83
                                 </a>
                                 <p class="card__subtext">
@@ -689,7 +632,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="card__link" href="#">
+                                <a class="card__link" href="my-profile?id=1">
                                     Invite
                                 </a>
                             </div>
@@ -706,7 +649,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -726,7 +669,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -746,7 +689,7 @@
                                         Heath
                                     </span>
                                 </h3>
-                                <a class="card__text" href="#">
+                                <a class="card__text" href="my-profile?id=1">
                                     @hheath-ux
                                 </a>
                                 <p class="card__subtext">
@@ -794,7 +737,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="card__link" href="#">
+                                <a class="card__link" href="my-profile?id=1">
                                     Invite
                                 </a>
                             </div>
@@ -811,7 +754,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -831,7 +774,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -851,7 +794,7 @@
                                         Zhang
                                     </span>
                                 </h3>
-                                <a class="card__text" href="#">
+                                <a class="card__text" href="my-profile?id=1">
                                     @mazakii_aquarelle
                                 </a>
                                 <p class="card__subtext">
@@ -899,7 +842,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="card__link" href="#">
+                                <a class="card__link" href="my-profile?id=1">
                                     Invite
                                 </a>
                             </div>
@@ -916,7 +859,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -936,7 +879,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -956,7 +899,7 @@
                                         Frederick
                                     </span>
                                 </h3>
-                                <a class="card__text" href="#">
+                                <a class="card__text" href="my-profile?id=1">
                                     @ff_ux
                                 </a>
                                 <p class="card__subtext">
@@ -1004,7 +947,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="card__link" href="#">
+                                <a class="card__link" href="my-profile?id=1">
                                     Invite
                                 </a>
                             </div>
@@ -1021,7 +964,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -1041,7 +984,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -1061,7 +1004,7 @@
                                         Jordan
                                     </span>
                                 </h3>
-                                <a class="card__text" href="#">
+                                <a class="card__text" href="my-profile?id=1">
                                     @susy.jordan_dsgn
                                 </a>
                                 <p class="card__subtext">
@@ -1109,7 +1052,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="card__link" href="#">
+                                <a class="card__link" href="my-profile?id=1">
                                     Invite
                                 </a>
                             </div>
@@ -1126,7 +1069,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -1146,7 +1089,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="#">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path
@@ -1166,7 +1109,7 @@
                                         Curtis
                                     </span>
                                 </h3>
-                                <a class="card__text" href="#">
+                                <a class="card__text" href="my-profile?id=1">
                                     @francurtis_3dartist
                                 </a>
                                 <p class="card__subtext">
@@ -1214,7 +1157,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="card__link" href="#">
+                                <a class="card__link" href="my-profile?id=1">
                                     Invite
                                 </a>
                             </div>
@@ -1231,17 +1174,17 @@
                                 </p>
                             </li>
                             <li class="paging__list-item">
-                                <a class="paging__list-link" href="#">
+                                <a class="paging__list-link" href="my-profile?id=1">
                                     2
                                 </a>
                             </li>
                             <li class="paging__list-item">
-                                <a class="paging__list-link" href="#">
+                                <a class="paging__list-link" href="my-profile?id=1">
                                     3
                                 </a>
                             </li>
                             <li class="paging__list-item">
-                                <a class="paging__list-link" href="#">
+                                <a class="paging__list-link" href="my-profile?id=1">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -1345,7 +1288,7 @@
                             <input type="checkbox" checked="checked">
                             <span class="checkmark"></span>
                         </label>
-                        <a class="login-form__bottom-link" href="#">
+                        <a class="login-form__bottom-link" href="my-profile?id=1">
                             Forgot Password?
                         </a>
                     </div>
@@ -1360,7 +1303,7 @@
                         </p>
                         <ul class="login-form-socials__list socials">
                             <li class="socials__item">
-                                <a class="socials__link" href="#">
+                                <a class="socials__link" href="my-profile?id=1">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="social_icons">
                                             <g id="Layer_x0020_1">
@@ -1371,7 +1314,7 @@
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <a class="socials__link" href="#">
+                                <a class="socials__link" href="my-profile?id=1">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="social_icons" clip-path="url(#clip0_187_9402)">
                                             <g id="Layer_x0020_1">
@@ -1387,7 +1330,7 @@
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <a class="socials__link" href="#">
+                                <a class="socials__link" href="my-profile?id=1">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="social_icons" clip-path="url(#clip0_187_9379)">
                                             <path id="Vector" d="M0 8C0 3.5888 3.5888 0 8 0C9.78156 0 11.4678 0.573181 12.8765 1.6576L11.0174 4.07253C10.1464 3.40206 9.10301 3.04762 8 3.04762C5.26926 3.04762 3.04762 5.26926 3.04762 8C3.04762 10.7307 5.26926 12.9524 8 12.9524C10.1994 12.9524 12.0684 11.5114 12.7125 9.52381H8V6.47619H16V8C16 12.4112 12.4112 16 8 16C3.5888 16 0 12.4112 0 8Z" fill="white" />
@@ -1401,7 +1344,7 @@
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <a class="socials__link" href="#">
+                                <a class="socials__link" href="my-profile?id=1">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="social_icons" clip-path="url(#clip0_187_9414)">
                                             <g id="Layer_x0020_1">
@@ -1449,7 +1392,7 @@
                         </p>
                         <ul class="login-form-socials__list socials">
                             <li class="socials__item">
-                                <a class="socials__link" href="#" tabindex="0">
+                                <a class="socials__link" href="my-profile?id=1" tabindex="0">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="social_icons">
                                             <g id="Layer_x0020_1">
@@ -1460,7 +1403,7 @@
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <a class="socials__link" href="#" tabindex="0">
+                                <a class="socials__link" href="my-profile?id=1" tabindex="0">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="social_icons" clip-path="url(#clip0_187_9402)">
                                             <g id="Layer_x0020_1">
@@ -1476,7 +1419,7 @@
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <a class="socials__link" href="#" tabindex="0">
+                                <a class="socials__link" href="my-profile?id=1" tabindex="0">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="social_icons" clip-path="url(#clip0_187_9379)">
                                             <path id="Vector" d="M0 8C0 3.5888 3.5888 0 8 0C9.78156 0 11.4678 0.573181 12.8765 1.6576L11.0174 4.07253C10.1464 3.40206 9.10301 3.04762 8 3.04762C5.26926 3.04762 3.04762 5.26926 3.04762 8C3.04762 10.7307 5.26926 12.9524 8 12.9524C10.1994 12.9524 12.0684 11.5114 12.7125 9.52381H8V6.47619H16V8C16 12.4112 12.4112 16 8 16C3.5888 16 0 12.4112 0 8Z" fill="white"></path>
@@ -1490,7 +1433,7 @@
                                 </a>
                             </li>
                             <li class="socials__item">
-                                <a class="socials__link" href="#" tabindex="0">
+                                <a class="socials__link" href="my-profile?id=1" tabindex="0">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="social_icons" clip-path="url(#clip0_187_9414)">
                                             <g id="Layer_x0020_1">

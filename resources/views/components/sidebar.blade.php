@@ -9,13 +9,13 @@
     <div class="">
         <ul class="d-flex top_nav">
             <li>
-                <a href="{{ route('freelancer.all-clients') }}">
-                    <span>All Clients</span>
+                <a href="{{ route('freelancer.dashboard') }}">
+                    <span>Dashboard</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('freelancer.chat') }}">
-                    <span>Messages</span>
+                <a href="{{ route('freelancer.gigs') }}">
+                    <span>My Gigs</span>
                 </a>
             </li>
             <li>

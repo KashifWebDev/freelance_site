@@ -1,6 +1,6 @@
 <!-- meta tags and other links -->
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 
 <x-head />
 
@@ -10,11 +10,8 @@
 <main class="dashboard-main1">
 
     <!-- ..::  navbar start ::.. -->
-    @if(auth()->guest())
-        <x-navbar-guest />
-    @else
-        <x-navbar />
-    @endif
+
+    <x-navbar />
     <!-- ..::  navbar end ::.. -->
     <div class="dashboard-main-body">
 

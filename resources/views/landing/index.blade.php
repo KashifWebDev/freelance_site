@@ -369,7 +369,7 @@
                                                 <span></span>
                                             </div>
                                             <div class="card-options__inner">
-                                                <a class="card-options__link" href="group-profile.html">
+                                                <a class="card-options__link" href="show-gig">
                                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                          xmlns="http://www.w3.org/2000/svg">
                                                         <path
@@ -383,7 +383,7 @@
                                                         Leave Group
                                                     </span>
                                                 </a>
-                                                <a class="card-options__link" href="group-profile.html">
+                                                <a class="card-options__link" href="show-gig">
                                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                          xmlns="http://www.w3.org/2000/svg">
                                                         <path
@@ -397,7 +397,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="card__title" href="group-profile.html">
+                                        <a class="card__title" href="show-gig">
                                             Mobile Apps
                                         </a>
                                         <ul class="card__list card-list">
@@ -412,7 +412,7 @@
                                                 </p>
                                             </li>
                                         </ul>
-                                        <a class="card-box__poster" href="group-profile.html">
+                                        <a class="card-box__poster" href="show-gig">
                                             <img class="card-box__poster-img" src="landing/images/new/1-1.jpg" alt="img">
                                         </a>
                                     </div>
@@ -431,7 +431,7 @@
                                                 <span></span>
                                             </div>
                                             <div class="card-options__inner">
-                                                <a class="card-options__link" href="group-profile.html">
+                                                <a class="card-options__link" href="show-gig">
                                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                          xmlns="http://www.w3.org/2000/svg">
                                                         <path
@@ -446,7 +446,7 @@
                                                         Leave Group
                                                     </span>
                                                 </a>
-                                                <a class="card-options__link" href="group-profile.html">
+                                                <a class="card-options__link" href="show-gig">
                                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                          xmlns="http://www.w3.org/2000/svg">
                                                         <path
@@ -460,7 +460,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="card__title" href="group-profile.html">
+                                        <a class="card__title" href="show-gig">
                                             Readymag
                                         </a>
                                         <ul class="card__list card-list">
@@ -475,7 +475,7 @@
                                                 </p>
                                             </li>
                                         </ul>
-                                        <a class="card-box__poster" href="group-profile.html">
+                                        <a class="card-box__poster" href="show-gig">
                                             <img class="card-box__poster-img" src="landing/images/new/1-2.jpg" alt="img">
                                         </a>
                                     </div>
@@ -494,7 +494,7 @@
                                                 <span></span>
                                             </div>
                                             <div class="card-options__inner">
-                                                <a class="card-options__link" href="group-profile.html">
+                                                <a class="card-options__link" href="show-gig">
                                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                          xmlns="http://www.w3.org/2000/svg">
                                                         <path
@@ -509,7 +509,7 @@
                                                         Leave Group
                                                     </span>
                                                 </a>
-                                                <a class="card-options__link" href="group-profile.html">
+                                                <a class="card-options__link" href="show-gig">
                                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                                          xmlns="http://www.w3.org/2000/svg">
                                                         <path
@@ -523,7 +523,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <a class="card__title" href="group-profile.html">
+                                        <a class="card__title" href="show-gig">
                                             UX-research
                                         </a>
                                         <ul class="card__list card-list">
@@ -538,7 +538,7 @@
                                                 </p>
                                             </li>
                                         </ul>
-                                        <a class="card-box__poster" href="group-profile.html">
+                                        <a class="card-box__poster" href="show-gig">
                                             <img class="card-box__poster-img" src="landing/images/new/1-3.jpg" alt="img">
                                         </a>
                                     </div>
@@ -562,9 +562,9 @@
                                 </span>
                                 at Design Lab
                             </h2>
-                            <a class="elevate-content__link" data-fancybox="" href="#login-popup">
-                                Search Freelancers
-                            </a>
+{{--                            <a class="elevate-content__link" data-fancybox="" href="#login-popup">--}}
+{{--                                Search Freelancers--}}
+{{--                            </a>--}}
                         </div>
                         <div class="elevate__view elevate-view">
                             <div class="elevate-view__box">
@@ -630,7 +630,7 @@
                                         Clark
                                     </span>
                                 </h3>
-                                <a class="card__text" href="members-page.html">
+                                <a class="card__text" href="my-profile?id=1">
                                     @anthony-clark
                                 </a>
                                 <p class="card__subtext">
@@ -643,7 +643,7 @@
 
                                         </span>
                                     </div>
-                                    <a class="card-box__link" href="members-page.html">
+                                    <a class="card-box__link" href="my-profile?id=1">
                                         Send Message
                                     </a>
                                 </div>
@@ -661,7 +661,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -672,7 +672,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -688,7 +688,7 @@
                                         Ferguson
                                     </span>
                                 </h3>
-                                <a class="card__text" href="members-page.html">
+                                <a class="card__text" href="my-profile?id=1">
                                     @valerie_ui
                                 </a>
                                 <p class="card__subtext">
@@ -701,7 +701,7 @@
 
                                         </span>
                                     </div>
-                                    <a class="card-box__link" href="members-page.html">
+                                    <a class="card-box__link" href="my-profile?id=1">
                                         Send Message
                                     </a>
                                 </div>
@@ -719,7 +719,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -730,7 +730,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -746,7 +746,7 @@
                                         Holland
                                     </span>
                                 </h3>
-                                <a class="card__text" href="members-page.html">
+                                <a class="card__text" href="my-profile?id=1">
                                     @lillyrose.flower
                                 </a>
                                 <p class="card__subtext">
@@ -759,7 +759,7 @@
 
                                         </span>
                                     </div>
-                                    <a class="card-box__link" href="members-page.html">
+                                    <a class="card-box__link" href="my-profile?id=1">
                                         Send Message
                                     </a>
                                 </div>
@@ -777,7 +777,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -788,7 +788,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="members-page.htmls">
+                                        <a class="card-options__link" href="my-profile?id=1s">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -804,7 +804,7 @@
                                         Alvarez
                                     </span>
                                 </h3>
-                                <a class="card__text" href="members-page.html">
+                                <a class="card__text" href="my-profile?id=1">
                                     @tina.alvarez
                                 </a>
                                 <p class="card__subtext">
@@ -817,7 +817,7 @@
 
                                         </span>
                                     </div>
-                                    <a class="card-box__link" href="members-page.html">
+                                    <a class="card-box__link" href="my-profile?id=1">
                                         Send Message
                                     </a>
                                 </div>
@@ -835,7 +835,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -846,7 +846,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -862,7 +862,7 @@
                                         Fole
                                     </span>
                                 </h3>
-                                <a class="card__text" href="members-page.html">
+                                <a class="card__text" href="my-profile?id=1">
                                     @susan-foley
                                 </a>
                                 <p class="card__subtext">
@@ -875,7 +875,7 @@
 
                                         </span>
                                     </div>
-                                    <a class="card-box__link" href="members-page.html">
+                                    <a class="card-box__link" href="my-profile?id=1">
                                         Send Message
                                     </a>
                                 </div>
@@ -893,7 +893,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -904,7 +904,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -920,7 +920,7 @@
                                         Stuart
                                     </span>
                                 </h3>
-                                <a class="card__text" href="members-page.html">
+                                <a class="card__text" href="my-profile?id=1">
                                     @tim.stuart.3d
                                 </a>
                                 <p class="card__subtext">
@@ -933,7 +933,7 @@
 
                                         </span>
                                     </div>
-                                    <a class="card-box__link" href="members-page.html">
+                                    <a class="card-box__link" href="my-profile?id=1">
                                         Send Message
                                     </a>
                                 </div>
@@ -951,7 +951,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -962,7 +962,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -978,7 +978,7 @@
                                         Bush
                                     </span>
                                 </h3>
-                                <a class="card__text" href="members-page.html">
+                                <a class="card__text" href="my-profile?id=1">
                                     @philippa-bush23
                                 </a>
                                 <p class="card__subtext">
@@ -991,7 +991,7 @@
 
                                         </span>
                                     </div>
-                                    <a class="card-box__link" href="members-page.htmls">
+                                    <a class="card-box__link" href="my-profile?id=1s">
                                         Send Message
                                     </a>
                                 </div>
@@ -1009,7 +1009,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1020,7 +1020,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -1036,7 +1036,7 @@
                                         Campbell
                                     </span>
                                 </h3>
-                                <a class="card__text" href="members-page.html">
+                                <a class="card__text" href="my-profile?id=1">
                                     @katie.campbell.art
                                 </a>
                                 <p class="card__subtext">
@@ -1049,7 +1049,7 @@
 
                                         </span>
                                     </div>
-                                    <a class="card-box__link" href="members-page.htmls">
+                                    <a class="card-box__link" href="my-profile?id=1s">
                                         Send Message
                                     </a>
                                 </div>
@@ -1067,7 +1067,7 @@
                                         <span></span>
                                     </div>
                                     <div class="card-options__inner">
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M10.6667 14V12.6667C10.6667 11.9594 10.3857 11.2811 9.88563 10.781C9.38553 10.281 8.70725 10 8.00001 10H4.00001C3.29277 10 2.61449 10.281 2.11439 10.781C1.6143 11.2811 1.33334 11.9594 1.33334 12.6667V14" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 <path d="M6.00001 7.33333C7.47277 7.33333 8.66668 6.13943 8.66668 4.66667C8.66668 3.19391 7.47277 2 6.00001 2C4.52725 2 3.33334 3.19391 3.33334 4.66667C3.33334 6.13943 4.52725 7.33333 6.00001 7.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1078,7 +1078,7 @@
                                                 Add Friend
                                             </span>
                                         </a>
-                                        <a class="card-options__link" href="members-page.html">
+                                        <a class="card-options__link" href="my-profile?id=1">
                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5927 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82668 2 9.00001 2.33333 8.00001 3.33333C7.00001 2.33333 6.17334 2 5.00001 2C4.02755 2 3.09492 2.38631 2.40729 3.07394C1.71965 3.76158 1.33334 4.69421 1.33334 5.66667C1.33334 7.2 2.33334 8.36667 3.33334 9.33333L8.00001 14L12.6667 9.33333Z" stroke="#0E1218" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </svg>
@@ -1094,7 +1094,7 @@
                                         Calderon
                                     </span>
                                 </h3>
-                                <a class="card__text" href="members-page.html">
+                                <a class="card__text" href="my-profile?id=1">
                                     @lcalderon.paralect
                                 </a>
                                 <p class="card__subtext">
@@ -1107,41 +1107,12 @@
 
                                         </span>
                                     </div>
-                                    <a class="card-box__link" href="members-page.html">
+                                    <a class="card-box__link" href="my-profile?id=1">
                                         Send Message
                                     </a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="members__paging paging">
-                        <p class="paging__text">
-                            Viewing 1 - 9 of 30 active members
-                        </p>
-                        <ul class="paging__list">
-                            <li class="paging__list-item">
-                                <p class="paging__list-text">
-                                    1
-                                </p>
-                            </li>
-                            <li class="paging__list-item">
-                                <a class="paging__list-link" href="#">
-                                    2
-                                </a>
-                            </li>
-                            <li class="paging__list-item">
-                                <a class="paging__list-link" href="#">
-                                    3
-                                </a>
-                            </li>
-                            <li class="paging__list-item">
-                                <a class="paging__list-link" href="#">
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.66663 4L12.1952 7.5286C12.4556 7.78894 12.4556 8.21106 12.1952 8.4714L8.66663 12M4.66663 4L8.19522 7.5286C8.45557 7.78894 8.45557 8.21106 8.19522 8.4714L4.66663 12" stroke="white" stroke-width="1.5" stroke-linecap="round"></path>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </section>
