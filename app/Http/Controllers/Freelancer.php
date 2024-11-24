@@ -21,4 +21,8 @@ class Freelancer extends Controller
     public function gigs(){
         return view('freelancer.gigs');
     }
+
+    public function gigAdd(){
+        return view('freelancer.gigs-add');
+    }
 }

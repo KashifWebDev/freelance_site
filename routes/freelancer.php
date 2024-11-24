@@ -6,7 +6,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(Freelancer::class)->group(function () {
     Route::get('/dashboard', 'dashboard')->name('dashboard');
+
     Route::get('/gigs', 'gigs')->name('gigs');
+    Route::get('/gigs/new', 'gigAdd')->name('gigs.add');
+
+
     Route::get('/invoice-list', 'invoices')->name('invoice');
 
     Route::get('/invoice-show', 'invoice')->name('invoice-show');
